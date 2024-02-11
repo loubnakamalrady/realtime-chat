@@ -210,3 +210,8 @@ body {
 .join-screen.active {
   display: block;
 }
+
+.message-container {
+  max-height: 400px; /* Set a maximum height for the message container */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
